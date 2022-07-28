@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+
+
+options {
+  color: gray;
+  text-decoration: none;
+}
+
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+
+video {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div3 {
+  background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+}
+
+a.nav-link {
+  color: black;
+  size: 50px
+}
+
+#head {
+  background-color: #8FBC8F;
+  height: 50px;
+  text-align: center;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("./../image/background.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video {
+  border: 15px groove lightgreen;
+}
+
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  border-radius: 50%;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+
+
+
+
+h1 {
+  display: grid;
+  text-align: center;
+  font-size: 7vh;
+  color: pink;
+  font-family: sans-serif;
+  padding: 4vh;
+  padding-bottom: 0;
+}
+
+#reset {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  position: absolute;
+  bottom: 2em;
+  margin: 0;
+  background-color: pink;
+  padding: 0.3rem;
+  border: none;
+  display: grid;
+  place-items: center;
+}
+
+
+
+#displayMsg {
+  display: grid;
+  place-items: left;
+  text-align: left;
+  font-size: 20px;
+}
+
+
+
+#site-footer {
+  font-size: 85%;
+  z-index: -1;
+  width: 100%;
+}
+
+.container-footer {
+  width: 100%;
+}
+
+.full-width-div {
+  position: absolute;
+  width: 100%;
+  padding: 5%
+}
+
+input {
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+
+#bell {
+  font-size: 85%;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#explore {
+  color: gray;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+
+.text-block {
+  position: absolute;
+  width: 80%;
+  top: 370px;
+  left: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+.title {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 60px;
+}
+
+.title-md {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 50px;
+}
+
+.title-sm {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 40px;
+}
+
+.title-mini {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 20px;
+}
+
+.container-title {
+  float: left;
+  padding: 0.5%;
+}
+
+.description {
+  font-family: 'Alegreya', serif;
+  font-size: large;
+}
+
+li {
+  font-family: 'Alegreya', serif;
+}
+
+th {
+  font-family: 'Alegreya', serif;
+}
+
+td {
+  font-family: 'Alegreya', serif;
+}
+
+p {
+  font-family: 'Alegreya', serif;
+}
+
+.question {
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+}
+
+.answers {
+  font-family: 'Alegreya', serif;
+}
+
+
+.label {
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+}
+
+.dev {
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+}
+
+#results {
+  font-family: 'Alegreya', serif;
+  font-size: 30px;
+  color: #8FBC8F;
+}

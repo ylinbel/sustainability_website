@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+
+
+
+options {
+  color: gray;
+  text-decoration: none;
+}
+
+
+a {
+  color: gray;
+  text-decoration: none;
+}
+
+
+video {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+div3 {
+  background-image: url('https://scx1.b-cdn.net/csz/news/800/2017/theoreticala.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: #FFFFFF;
+}
+
+a.nav-link {
+  color: black;
+  size: 50px
+}
+
+#head {
+  background-color: #8FBC8F;
+  height: 50px;
+  text-align: center;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("./../image/background.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video {
+  border: 15px groove lightgreen;
+}
+
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  border: none;
+  text-align: left;
+  border-radius: 50%;
+  outline: none;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.collapsible:hover {
+  background-color: #ccc;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+
+
+
+
+h1 {
+  display: grid;
+  text-align: center;
+  font-size: 7vh;
+  color: pink;
+  font-family: sans-serif;
+  padding: 4vh;
+  padding-bottom: 0;
+}
+
+#reset {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  position: absolute;
+  bottom: 2em;
+  margin: 0;
+  background-color: pink;
+  padding: 0.3rem;
+  border: none;
+  display: grid;
+  place-items: center;
+}
+
+
+
+#displayMsg {
+  display: grid;
+  place-items: left;
+  text-align: left;
+  font-size: 20px;
+}
+
+
+
+#site-footer {
+  font-size: 85%;
+  z-index: -1;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+}
+
+.full-width-div {
+  position: absolute;
+  width: 100%;
+  padding: 5%
+}
+
+input {
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+
+#bell {
+  font-size: 85%;
+  z-index: -1;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#explore {
+  color: gray;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+
+.text-block {
+  position: absolute;
+  width: 80%;
+  top: 370px;
+  left: 20px;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Alegreya', serif;
+}
+
+.title {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 60px;
+}
+
+.title-md {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 50px;
+}
+
+.title-md:hover {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 53px;
+}
+
+.title-sm {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 40px;
+}
+
+.title-sm:hover {
+  color: #8FBC8F;
+
+}
+
+.title-mini {
+  font-family: 'Saira Semi Condensed', sans-serif;
+  text-align: left;
+  font-size: 20px;
+}
+
+.container-title {
+  float: left;
+  padding-left: 25%;
+}
+
+.description {
+  font-family: 'Alegreya', serif;
+  font-size: large;
+}
+
+p::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+p:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+p::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: hsl(200 100% 80%);
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+li {
+  font-size: 0.875rem
+}
+
+th {
+  font-family: 'Alegreya', serif;
+}
+
+td {
+  font-family: 'Alegreya', serif;
+}
+
+section {
+  min-height: 400px;
+}
+
+marquee {
+  font-size: 30px;
+  color: #94B49F;
+  font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+#rod {
+  position: relative;
+  margin-top: 50px;
+  margin-left: 150px;
+  width: 2px;
+  height: 150px;
+  border-radius: 5px;
+  transform-origin: 50% 0%;
+  transform: rotate(60deg);
+  background-color: green;
+}
+
+#pivot {
+  position: absolute;
+  top: -5px;
+  left: -3px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+#ball {
+  position: absolute;
+  bottom: -10px;
+  left: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: orange;
+}
+
+
+.open-button {
+
+  background-color: #0B6121;
+  color: white;
+  padding: 16px 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  width: 280px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: #E6E6E6;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover,
+.open-button:hover {
+  opacity: 1;
+}
+
+
+/* CSS */
+.button-86 {
+  all: unset;
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  background: transparent;
+  border: none;
+  position: fixed;
+  color: #f0f0f0;
+  cursor: pointer;
+  z-index: 1;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  bottom: 10px;
+  right: 20px;
+}
+
+.button-86::after,
+.button-86::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -99999;
+  transition: all .4s;
+}
+
+.button-86::before {
+  transform: translate(0%, 0%);
+  width: 100%;
+  height: 100%;
+  background: #04B431;
+  border-radius: 10px;
+}
+
+.button-86::after {
+  transform: translate(10px, 10px);
+  width: 35px;
+  height: 35px;
+  background: #ffffff15;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.button-86:hover::before {
+  transform: translate(5%, 20%);
+  width: 110%;
+  height: 110%;
+}
+
+.button-86:hover::after {
+  border-radius: 10px;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+.button-86:active::after {
+  transition: 0s;
+  transform: translate(0, 5%);
+}
+
+.img-c:hover {
+  opacity: 0.8;
+  filter: grayscale(10%);
+  transform: scale(1.05);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+#highlighter::before {
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+#highlighter:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+#highlighter::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #FCF8E8;
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+#highlighter {
+  position: relative;
+}
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+}
+
+.question {
+  color: #04AA6D;
+}
+
+.noHover {
+  pointer-events: none;
+}
