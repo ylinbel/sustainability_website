@@ -417,3 +417,25 @@
     width: 32px;
   }
 }
+
+.footer {
+  background-color: #FFDCAE;
+  float: center;
+  overflow: hidden;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  opacity: 90%;
+  text-align: center;
+  z-index: -1;
+
+}
+
+.footer a {
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: 'Saira Semi Condensed', sans-serif;
+  font-size: 17px;
+} 
