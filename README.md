@@ -14,20 +14,26 @@ This website gives all the information about being more sustainable and the ways
 
 ## How we built it
 
-We built the webpages using Html, Css and Javascript.  
+We built the webpages using Html, Css and Javascript. This project uses bootstrap 5.2, jquery.js, google-font for text fonts and font awesome 2.6 for icons. 
+
+## Reference 
+
+Color match: https://www.colorhunt.co/ <br>
+Bootstrap: https://getbootstrap.com/docs/5.2  <br>
+JQuery: https://jquery.com/  <br>
+Google font: https://fonts.google.com/  <br>
+Font Awesome: https://fontawesome.com/v4/icons/  <br>
 
 
 
-Group members: <br><br>
-                    Yijun Lin <br>
-                    Jasmin Mohamed <br>
-                    Stefana Grosu <br>
-                    Da young Kim <br>
+## Group members:
+ Yijun Lin <br>
+ Jasmin Mohamed <br>
+ Stefana Grosu <br>
+ Da young Kim <br>
 
 
 
-![127 0 0 1_5500_pages_home html](https://user-images.githubusercontent.com/94548705/181655277-43651cbc-58bc-4fdb-946d-7f34c7db23f7.png)
+## Sample
 
-
-![screenshot3](https://user-images.githubusercontent.com/94548705/181655497-fc09d891-7145-4952-9eed-5117f8bfe5b4.png)
-
+![_C__Users_linyi_Documents_GitHub_systainability_website_pages_index html](https://user-images.githubusercontent.com/94548705/181660061-929aa30a-7658-4c4b-b9be-5fe43b58127c.png)
